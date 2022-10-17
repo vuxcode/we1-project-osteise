@@ -4,5 +4,7 @@
 
 For example: 
 
-- 2022-10-25 13:00 Worked for 1 hour.
-  - *List the things you have done.*
+- 2022-10-17 20:30 Worked for 2 hours.
+  - Styled background
+  - Added/styled some buttons
+  - Added first set of navigation buttons (will add one on the left side aswell)
