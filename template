@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Contact</title>
     <style>
         * {
                 box-sizing: border-box;
@@ -13,11 +14,22 @@
         }
     </style>
 </head>
-
-
-
-
-
-
-
+<body>
+    <header>
+    
+    </header>
+    <nav>
+        <a class="info" href="#">Info</a>
+        <a class="contact" href="#">Contact</a>
+        <a class="home" href="index.html">Home</a>
+    </nav>
+    <main>
+        <section>
+            
+        </section>
+    </main>
+    <footer>
+    
+    </footer>
+</body>
 </html>
