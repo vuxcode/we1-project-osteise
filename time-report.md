@@ -8,3 +8,7 @@ For example:
   - Styled background
   - Added/styled some buttons
   - Added first set of navigation buttons (will add one on the left side aswell)
+- 2022-11-03 16:00 Worked for 3 hours
+  - Styled the contact page
+  - Added a contact form
+  - Added a map
