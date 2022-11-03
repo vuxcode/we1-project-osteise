@@ -7,6 +7,13 @@
 body {
     background-image: linear-gradient(to right, #023E8A , #0077B8);
     }
+main {
+    text-align: center;
+    }
+nav {
+    text-align: right;
+    height: 100px;
+    }
 .button {
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
@@ -18,13 +25,6 @@ body {
     text-decoration: none;
     padding: 10px;
     width: 250px;
-    }
-    main {
-        text-align: center;
-    }
-nav {
-    text-align: right;
-    height: 100px;
     }
 .home,
 .info,
@@ -48,27 +48,66 @@ article {
     border: 3px solid #0077B8;
 }
 div {
-    background: #023E8A;
-    height: 521px;
     width: 426px;
+    height: 550px;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
     display: inline-block;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 section {
     margin-top: 20px;
     padding-top: 10px;
     width: 1200px;
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     }
 h1 {
     color: #ADE8F4;
     }
-form {
+/*form {
     height: 600px;
     width: 400px;
     display: inline-block;
+}*/
+fieldset {
+    border: 3px solid #0077B8;
+    border-radius: 30px 30px 30px 5px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 550px;
+    width: 400px;
+    text-align: left;
+    
+}
+label {
+    color: #ADE8F4;
+}
+legend {
+    border: 3px solid #0077B8;
+    border-radius: 30px 30px 30px 5px;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 10px;
+    color: #ADE8F4;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-bottom:2px;
+    width: 200px;
+}
+#submit {
+    width: 400px;
+    height: 50px;
+    border: 3px solid #0077B8;
+    border-radius: 30px 30px 30px 5px;
+    background-color: #023E8A;
+    color: #ADE8F4;
+    margin-top: 10px;
 }
 #message {
     color: #ADE8F4;
@@ -76,7 +115,6 @@ form {
     border-radius: 30px 30px 30px 5px;
     height: 250px;
     width: 400px;
-    margin-bottom: 10px;
     margin-top: 5px;
     padding-left: 10px;
     padding-top: 5px;
@@ -97,39 +135,4 @@ form {
     color: #ADE8F4;
     margin-bottom: 20px;
     padding-left: 10px;
-}
-fieldset {
-    background-color: #023E8A;
-    border: 3px solid #0077B8;
-    border-radius: 30px 30px 30px 5px;
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 500px;
-    text-align: left;
-    margin-right: 10px;
-}
-legend {
-    background-color: #023E8A;
-    border: 3px solid #0077B8;
-    border-radius: 30px 30px 30px 5px;
-    font-size: 150%;
-    text-align: left;
-    margin-left: 10px;
-    color: #ADE8F4;
-    padding: 2px 2px 2px 2px;
-}
-#submit {
-    width: 400px;
-    height: 50px;
-    border: 3px solid #0077B8;
-    border-radius: 30px 30px 30px 5px;
-    background-color: #023E8A;
-    color: #ADE8F4;
-    margin-top: 10px;
-}
-label {
-    color: #ADE8F4;
 }
