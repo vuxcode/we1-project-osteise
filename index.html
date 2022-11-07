@@ -3,24 +3,57 @@
     <title>Work in progress</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <style>
+        section {
+            margin-top: 20px;
+            border: 3px solid #0077B8;
+            border-radius: 30px 30px 30px 5px;
+            width: 800px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 40px;
+            }
+        .button {
+            height: 75px;
+            width: 450px;
+            padding-top: 20px;
+            background-color: #023E8A;
+            font-size: 150%;
+        }
+        p {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            font-size: 200%;
+        }
+    </style>
 </head>
 <body>
     <header>
-    
+        <nav class="dropdown">
+            <button class="dropButton">Menu</button>
+            <nav class="dropdownContent">
+                <a href="index.html">Home</a>
+                <a href="info.html">info</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </nav>
     </header>
-    <nav>
-        <a class="info" href="info.html">Info</a>
+        <!--<nav>
+            <a class="info" href="info.html">Info</a>
         <a class="contact" href="contact.html">Contact</a>
         <a class="home" href="index.html">Home</a>
-    </nav>
+    </nav>-->
     <main>
         <section>
-            <a class="button" href="#">
-                Play Music Quiz!
+            <p>Music Quiz!</p>
+            <a class="button" href="https://vuxcode.github.io/pr1-project-osteise/">
+                Press here to Play!
             </a>
             <br>
             <a class="button" href="#">
-                Learn about the game!
+                Help.
             </a>
         </section>
     </main>

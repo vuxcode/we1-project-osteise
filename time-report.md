@@ -12,3 +12,7 @@ For example:
   - Styled the contact page
   - Added a contact form
   - Added a map
+- 2022-11-07 20:00
+ - Got an account on Formspree and addded it to my form. I tried to send a message and it worked.
+ - Started working with the index page
+ - Started working with a drop down menu (+ research time)
