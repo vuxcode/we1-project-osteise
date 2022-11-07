@@ -193,13 +193,13 @@ legend {
     display: block;
 }
 .dropdownContent a:hover {
-    background-color: #023E8A;
+    background-color: #0077B8;
 }
 .dropdown:hover .dropdownContent {
     display: block;
 }
 .dropdown:hover .dropButton {
-    background-color: #023E8A;
+    background-color: #0077B8;
 }
 header {
     text-align: left;
