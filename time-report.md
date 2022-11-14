@@ -19,8 +19,9 @@ For example:
  - Added dropdown menu to all existing pages (including the programming project index)
  - Added the last page (about.html)
  - Finished the contact page
-- 2022-11-14 13:00
+- 2022-11-14 13:00 Worked for 2 hours.
   - Removed some code from style.css that wasn't needed anymore. 
   - Started working with the information page, added text and images
   - Removed font links from each page and added import to style.css
   - Moved some style elements from index to style.css 
+  - Started working with a fixed Play button on information page
