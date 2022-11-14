@@ -21,4 +21,4 @@ For example:
  - Finished the contact page
 - 2022-11-14 13:00
   - Removed some code from style.css that wasn't needed anymore. 
-  - 
+  - Started working with the information page
