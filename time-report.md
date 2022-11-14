@@ -19,3 +19,6 @@ For example:
  - Added dropdown menu to all existing pages (including the programming project index)
  - Added the last page (about.html)
  - Finished the contact page
+- 2022-11-14 13:00
+  - Removed some code from style.css that wasn't needed anymore. 
+  - 
