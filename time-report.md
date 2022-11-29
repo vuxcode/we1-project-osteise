@@ -25,3 +25,8 @@ For example:
   - Removed font links from each page and added import to style.css
   - Moved some style elements from index to style.css 
   - Started working with a fixed Play button on information page
+- 2022-11-29 11:30 worked for 2 hours
+  - Made a scrolling text. 
+  - Styled the scrolling text.
+  - Adding the scrolling text to the "game" index page (programming project)
+  -  
