@@ -315,6 +315,8 @@ legend {
     height: 100px;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
+}
+.dropButton:hover {
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .dropdown {
@@ -327,7 +329,6 @@ legend {
     background-color: #023E8A;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     min-width: 100%;
     overflow: auto;
     z-index: 1;

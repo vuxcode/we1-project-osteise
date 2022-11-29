@@ -29,3 +29,5 @@ For example:
   - Made a scrolling text. 
   - Styled the scrolling text.
   - Adding the scrolling text to the "game" index page (programming project)
+  - Created an effect to the Play Now! button that can be found on info.html, contact.html and session-stats.html (programming project)
+  - Added box-shadows to some images and buttons to create a glow
