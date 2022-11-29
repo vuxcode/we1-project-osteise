@@ -29,4 +29,3 @@ For example:
   - Made a scrolling text. 
   - Styled the scrolling text.
   - Adding the scrolling text to the "game" index page (programming project)
-  -  
