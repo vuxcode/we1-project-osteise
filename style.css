@@ -97,6 +97,7 @@ img {
     width: 200px;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .bottomPic,
 .bottomPicLowered {
@@ -108,9 +109,11 @@ img {
 }
 .bottomPicLowered {
     margin-top: 40px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .bottomPic {
     margin-bottom: 40px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .pictures /* figure class */ {
     height: 200px;
@@ -126,7 +129,8 @@ summary {
     text-align: center;
     margin-bottom: 20px;
 }
-#fixedButton {
+.fixedButton {
+    background-size: 300% 100%;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
     background-color: #023E8A;
@@ -140,8 +144,15 @@ summary {
     height: 100px;
     font-size: 150%;
     padding-top: 28px;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
-#fixedButton:hover {
+.fixedButton:hover {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     /* background: #0077B8;
     border-color: #023E8A; */
     width: 200px;
@@ -149,10 +160,22 @@ summary {
     padding-top: 50px;
     font-size: 200%;
     cursor: pointer;
+    background-position: 100% 0;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 #fixedAnchor {
     text-decoration: none;
     color: #ADE8F4;
+}
+.fixedButton:focus {
+    outline: none;
+}
+.fixedButton.color:hover {
+    background-image: linear-gradient(to left, #023E8A, #0077B8, #0077B8, #33b7ec);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 /* #fixedAnchor:hover {
     color: #023E8A;
@@ -203,6 +226,7 @@ form {
 fieldset {
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -227,6 +251,8 @@ label {
 legend {
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
+    background-color: #023E8A;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     font-size: 150%;
     text-align: left;
     margin-left: 10px;
@@ -289,6 +315,7 @@ legend {
     height: 100px;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .dropdown {
     position: relative;
@@ -300,6 +327,7 @@ legend {
     background-color: #023E8A;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     min-width: 100%;
     overflow: auto;
     z-index: 1;
@@ -312,6 +340,7 @@ legend {
 }
 .dropdownContent a:hover {
     background-color: #0077B8;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .dropdown:hover .dropdownContent {
     display: block;
