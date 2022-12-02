@@ -115,10 +115,6 @@ img {
     margin-bottom: 40px;
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
-.pictures /* figure class */ {
-    height: 200px;
-    /* min-width: 1200px; */
-}
 summary {
     margin-left: 200px;
     margin-top: 50px;
@@ -303,7 +299,9 @@ legend {
     background-color: #0077B8;
     color: #023E8A;
 }
-
+textarea {
+    resize: none;
+}
 
 /* DROPDOWN MENU*/
 .dropButton {
