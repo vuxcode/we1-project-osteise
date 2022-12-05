@@ -34,7 +34,8 @@ For example:
 - 2022-12-2 14:30 worked for 1 hour
   - Fixed some image problems on the information page
   - Started validating the pages.
-- 2022-12-5 19:00 worked for 1 hour
+- 2022-12-5 19:00 worked for 3 hours
   - Fixed viewport to make the site responsive.
   - Completed validating the pages.
   - Created a script file and created darkmode
+  - Fixed dark mode on all pages, and fixed a localStorage so the program knows which to use upon loading.
