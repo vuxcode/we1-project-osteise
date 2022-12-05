@@ -217,10 +217,11 @@ img {
 /* FORM */
 form {
     height: 1000px;
-    width: 100%;
+    /* width: 100%; */
     display: inline-block;
+    margin-top: 100px;
     text-align:center;
-    padding-left: 320px;
+    /* padding-left: 320px; */
 }
 fieldset {
     border: 3px solid #0077B8;
