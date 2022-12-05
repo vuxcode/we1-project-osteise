@@ -18,7 +18,7 @@ main,
     text-align: center;
     }
 .informationPage {
-    padding-left: 80px;
+    padding-left: 380px;
 }
 .button {
     border: 3px solid #0077B8;
@@ -89,13 +89,15 @@ footer {
     float: left;
     padding-left: 190px;
 }
-aside {
+.aside {
     display: inline-block;
     width: 200px;
+    border: none;
+    margin-bottom: 20px;
 }
 img {
     width: 200px;
-    border: 3px solid #0077B8;
+    /* border: 3px solid #0077B8; */
     border-radius: 30px 30px 30px 5px;
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
@@ -103,7 +105,7 @@ img {
 .bottomPicLowered {
     width: 250px;
     height: 150px;
-    border: 3px solid #0077B8;
+    /* border: 3px solid #0077B8; */
     border-radius: 30px 30px 30px 5px;
     margin-left: 10px;
 }
@@ -115,15 +117,15 @@ img {
     margin-bottom: 40px;
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
-summary {
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
 .legal {
     font-size: 50%;
     text-align: center;
     margin-bottom: 20px;
+}
+.infoText {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .fixedButton {
     background-size: 300% 100%;
@@ -339,7 +341,7 @@ textarea {
 }
 .dropdownContent a:hover {
     background-color: #0077B8;
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    /* box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
 }
 .dropdown:hover .dropdownContent {
     display: block;
@@ -395,4 +397,19 @@ nav {
     100% {-moz-transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%)}
+}
+/* DARK AND LIGHTMODE */
+.dark-mode {
+    background-image: linear-gradient(to right, #023E8A , #000000);
+}
+#dark-modeBtn {
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid #0077B8;
+    border-radius: 30px 30px 30px 30px;
+    width: 200px;
+    height: 50px;
+}
+.light-mode {
+    background-image: linear-gradient(to right, #023E8A , #0077B8);
 }

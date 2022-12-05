@@ -1,8 +1,9 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html><html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Music Quiz</title>
     <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
     </header>
     <main class="mainIndex">
         <div class="scroll-left">
-            <p>You can only use 50/50 and Get a Hint! once each per game!</p>
+            <p>How many questions can you answer?</p>
         </div>
         <section class="sectionIndex">
             <p class="pIndex">Music Quiz!</p>
@@ -29,8 +30,10 @@
                 Session Statistics
             </a>
         </section>
+        <button id="dark-modeBtn" onClick="darkmode()"><p id="mode"></p></button>
     </main>
-    <footer>
-    </footer>
+<footer>
+</footer>
+<script src="program.js"></script>
 </body>
 </html>
