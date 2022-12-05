@@ -16,9 +16,6 @@ body {
 main,
 .informationPage {
     text-align: center;
-    }
-.informationPage {
-    padding-left: 380px;
 }
 .button {
     border: 3px solid #0077B8;
@@ -34,9 +31,6 @@ main,
 }
 a:hover {
     color: #023E8A;
-}
-.buttonIndex:hover {
-    background: #0077B8;
 }
 article {
     height: 500px;
@@ -89,6 +83,9 @@ footer {
     float: left;
     padding-left: 190px;
 }
+/* .informationPage {
+    padding-left: 130px;
+} */
 .aside {
     display: inline-block;
     width: 200px;
@@ -194,6 +191,10 @@ img {
     padding-top: 20px;
     background-color: #023E8A;
     font-size: 150%;
+}
+.buttonIndex:hover {
+    background: #0077B8;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .pIndex {
     text-align: center;
@@ -329,7 +330,7 @@ textarea {
     background-color: #023E8A;
     border: 3px solid #0077B8;
     border-radius: 30px 30px 30px 5px;
-    min-width: 100%;
+    min-width: 150px;
     overflow: auto;
     z-index: 1;
 }
@@ -341,7 +342,6 @@ textarea {
 }
 .dropdownContent a:hover {
     background-color: #0077B8;
-    /* box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
 }
 .dropdown:hover .dropdownContent {
     display: block;
@@ -399,16 +399,20 @@ nav {
     transform: translateX(-100%)}
 }
 /* DARK AND LIGHTMODE */
+#dark-modeBtn {
+    background-color: transparent;
+    padding-left: 35px;
+    width: 150px;
+    height: 100px;
+    border: 3px solid #0077B8;
+    border-radius: 30px 30px 30px 5px;
+}
+#dark-modeBtn:hover {
+    background-color: #0077B8;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
 .dark-mode {
     background-image: linear-gradient(to right, #023E8A , #000000);
-}
-#dark-modeBtn {
-    text-align: center;
-    background-color: transparent;
-    border: 3px solid #0077B8;
-    border-radius: 30px 30px 30px 30px;
-    width: 200px;
-    height: 50px;
 }
 .light-mode {
     background-image: linear-gradient(to right, #023E8A , #0077B8);

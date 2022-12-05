@@ -31,9 +31,10 @@ For example:
   - Adding the scrolling text to the "game" index page (programming project)
   - Created an effect to the Play Now! button that can be found on info.html, contact.html and session-stats.html (programming project)
   - Added box-shadows to some images and buttons to create a glow
-- 2022-12-2 worked for 1 hour
+- 2022-12-2 14:30 worked for 1 hour
   - Fixed some image problems on the information page
   - Started validating the pages.
-- 2022-12-5 worked for 1 hour
+- 2022-12-5 19:00 worked for 1 hour
   - Fixed viewport to make the site responsive.
   - Completed validating the pages.
+  - Created a script file and created darkmode
