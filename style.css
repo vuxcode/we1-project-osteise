@@ -213,6 +213,32 @@ img {
     padding-top: 40px;
 }
 
+/* SESSION STAT PAGE */
+.playStat {
+    font-size: 200%;
+}
+/* #startGame:hover {
+    background: #0077B8;
+    color: #0096C7;
+} */
+.statHeader {
+    margin-top: 80px;
+}
+#totalStat,
+#lastScore,
+#highscoreText {
+    font-size: 150%;
+    text-align: left;
+    margin-left: 40px;
+}
+.sessionStatSection {
+    border: 3px solid #0077B8;
+    border-radius: 30px 30px 30px 5px;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
 
 /* FORM */
 form {

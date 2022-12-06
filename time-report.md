@@ -39,3 +39,6 @@ For example:
   - Completed validating the pages.
   - Created a script file and created darkmode
   - Fixed dark mode on all pages, and fixed a localStorage so the program knows which to use upon loading.
+- 2022-12-6 20:30 
+  - Took the session stat page from the programming project and put it in the web project instead.
+  - 
