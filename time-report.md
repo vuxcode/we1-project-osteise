@@ -39,6 +39,7 @@ For example:
   - Completed validating the pages.
   - Created a script file and created darkmode
   - Fixed dark mode on all pages, and fixed a localStorage so the program knows which to use upon loading.
-- 2022-12-6 20:30 
+- 2022-12-6 20:30 worked for 2 hours
   - Took the session stat page from the programming project and put it in the web project instead.
-  - 
+  - Fixed so that a picture of the most frequent asked artist question is shown.
+  - Fixed the code for all the local storage things
