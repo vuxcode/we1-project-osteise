@@ -43,3 +43,5 @@ For example:
   - Took the session stat page from the programming project and put it in the web project instead.
   - Fixed so that a picture of the most frequent asked artist question is shown.
   - Fixed the code for all the local storage things
+-2022-12-08 21:30 worked for 
+ - Merged the two scripts into one
