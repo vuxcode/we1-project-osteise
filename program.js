@@ -61,6 +61,7 @@ function darkmode() {
     }
 }
 
+/*
 
 // SESSIONS STATS SPECIFIC CODE STARTS HERE
 
@@ -204,3 +205,4 @@ getTotal();
 getLastScore();
 getHighscore();
 statPage();
+*/

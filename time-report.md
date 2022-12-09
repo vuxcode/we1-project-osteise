@@ -43,5 +43,5 @@ For example:
   - Took the session stat page from the programming project and put it in the web project instead.
   - Fixed so that a picture of the most frequent asked artist question is shown.
   - Fixed the code for all the local storage things
--2022-12-08 21:30 worked for 
- - Merged the two scripts into one
+-2022-12-08 21:30 worked for 1 hour
+ - Created an array to store the values from the artist variables and used Mat.max() to check the highest value in order to output the correct picture.
