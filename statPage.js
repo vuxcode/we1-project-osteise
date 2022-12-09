@@ -1,15 +1,15 @@
 // create a variable for all artists to collect them from the localstorage
-var mj = 0;
-var acdc = 0;
-var bruce = 0;
-var abba = 0;
-var elvis = 0;
-var cash = 0;
-var mc = 0;
-var bob = 0;
-var elton = 0;
-var queen = 0;
-var beatles = 0;
+var mj;
+var acdc;
+var bruce;
+var abba;
+var elvis;
+var cash;
+var mc;
+var bob;
+var elton;
+var queen;
+var beatles;
 // create a function to import values from local storage
 function getArtists() {
     mj = localStorage.getItem("saved_mj");
@@ -127,4 +127,12 @@ else if (mc == Math.max(...artistArr)) {
 else if (beatles == Math.max(...artistArr)) {
     img.src = "https://svd.vgc.no/v2/images/81e63073-137a-45ba-93b3-e8e70a1b9736?h=560&q=80&upscale=true&w=995&s=c8dd41c0e57da0a82faeeab43db3b43ed8428860";
     text.innerText="The Beatles!";
+}
+else if (Math.min(...artistArr) == 0) {
+    img.src = "";
+    text.innerText="Answer more questions to see\nthe most frequent appearing artist!"
+}
+else if (artistArr == null) {
+    img.src = "";
+    text.innerText="Answer more questions to see\nthe most frequent appearing artist!"
 }
