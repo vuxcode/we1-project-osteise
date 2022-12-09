@@ -129,10 +129,10 @@ else if (beatles == Math.max(...artistArr)) {
     text.innerText="The Beatles!";
 }
 else if (Math.min(...artistArr) == 0) {
-    img.src = "";
+    img.src = "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg";
     text.innerText="Answer more questions to see\nthe most frequent appearing artist!"
 }
 else if (artistArr == null) {
-    img.src = "";
+    img.src = "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg";
     text.innerText="Answer more questions to see\nthe most frequent appearing artist!"
 }
