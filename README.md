@@ -9,8 +9,8 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 
 # Project Notes
 
-> You can use this section of the file to keep notes about your project as you work on it
+> Most of the ideas for the different pages has been developed over time. Most of my notes can be found within the bug-list and the time-report
 
 # Project Summary
 
-> Before the final submission date you should include a "PROJECT SUMMARY" in this section here.
+> This project is a webpage that has a Music Quiz built into it. The Music Quiz is my project for the Programming course. This project however is the page itself, a welcome page along with a contact page, an "about" page which some "commercial-like" features, and a session statistic page that outputs the stored values from your Music Quiz games.  

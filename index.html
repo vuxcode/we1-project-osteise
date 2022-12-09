@@ -5,7 +5,7 @@
     <link href="style.css" rel="stylesheet">
     <meta charset="utf-8">
 </head>
-<body>
+<body onload="randomScrolling()">
     <header>
         <nav class="dropdown">
             <button class="dropButton">Menu</button>
@@ -15,11 +15,13 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </nav>
-        <button id="dark-modeBtn" onClick="darkmode()"><p id="mode"></p></button>
+        <button id="dark-modeBtn" onClick="darkmode()">
+            <span id="mode"></span>
+        </button>
     </header>
     <main class="mainIndex">
         <div class="scroll-left">
-            <p>How many questions can you answer?</p>
+            <p id="scrolling"></p>
         </div>
         <section class="sectionIndex">
             <p class="pIndex">Music Quiz!</p>
@@ -31,7 +33,6 @@
                 Session Statistics
             </a>
         </section>
-        <!-- <button id="dark-modeBtn" onClick="darkmode()"><p id="mode"></p></button> -->
     </main>
 <footer>
 </footer>

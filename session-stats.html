@@ -1,7 +1,8 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html><html lang="en">
 <head>
     <title>Session Stats</title>
     <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
 </head>
 <body>
 <header>
@@ -13,23 +14,26 @@
             <a href="contact.html">Contact</a>
         </nav>
     </nav>
-    <button id="dark-modeBtn" onClick="darkmode()"><p id="mode"></p></button>
+    <button id="dark-modeBtn" onClick="darkmode()"><span id="mode"></span>
+    </button>
 </header>
 <main>
     <h1 class="statHeader">Your Session Stats!</h1>
-    <section class="sessionStatSection">
-        <p id="totalStat"></p>
-        <p id="lastScore"></p>
-        <p id="highscoreText"></p>
-        <p id="mjInner"></p>
-        <img/>
-    </section>
-    <!-- <article>
-        <button id="startGame" onClick="window.location.href = 'index.html'"><p class="playStat">Press here to Play!</p></button>
-    </article> -->
+    <div class="sessionStatDiv">
+        <section class="sessionStatSection">
+            <p id="totalStat"></p>
+            <br>
+            <p id="lastScore"></p>
+            <br>
+            <p id="highscoreText"></p>
+        </section>
+        <p class="frequently">Your most frequently appearing artist is:</p>
+        <img id="topArtist" src="statPage.js" alt="picture of the most frequent appearing artist(visible in text below)">
+        <p id="artistOutput"></p>
+    </div>
 </main>
 <footer>
-    <nav class="fixedButton color" href="https://vuxcode.github.io/pr1-project-osteise/">
+    <nav class="fixedButton color">
         <a id="fixedAnchor" href="https://vuxcode.github.io/pr1-project-osteise/">Play now!</a>
     </nav>
 </footer>

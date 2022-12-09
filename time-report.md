@@ -45,5 +45,7 @@ For example:
   - Fixed the code for all the local storage things
 -2022-12-08 21:30 worked for 1 hour
  - Created an array to store the values from the artist variables and used Mat.max() to check the highest value in order to output the correct picture.
-2022-12-09 14:30 
-  - 
+2022-12-09 17:00 
+  - Started designing the session stat page
+  - Added text output to go with the image that is displayed for most frequently appearing question
+  - Created a switch statement to output different texts in the scrolling text bar.
