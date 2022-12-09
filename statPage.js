@@ -1,15 +1,15 @@
 // create a variable for all artists to collect them from the localstorage
-var mj = Number(mj);
-var acdc = Number(acdc);
-var bruce = Number(bruce);
-var abba = Number(abba);
-var elvis = Number(elvis);
-var cash = Number(cash);
-var mc = Number(mc);
-var bob = Number(bob);
-var elton = Number(elton);
-var queen = Number(queen);
-var beatles = Number(beatles);
+var mj = 0;
+var acdc = 0;
+var bruce = 0;
+var abba = 0;
+var elvis = 0;
+var cash = 0;
+var mc = 0;
+var bob = 0;
+var elton = 0;
+var queen = 0;
+var beatles = 0;
 // create a function to import values from local storage
 function getArtists() {
     mj = localStorage.getItem("saved_mj");
