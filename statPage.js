@@ -12,18 +12,75 @@ var queen;
 var beatles;
 // create a function to import values from local storage
 function getArtists() {
-    mj = localStorage.getItem("saved_mj");
-    acdc = localStorage.getItem("saved_acdc");
-    bruce = localStorage.getItem("saved_bruce");
-    abba = localStorage.getItem("saved_abba");
-    elvis = localStorage.getItem("saved_elvis");
-    cash = localStorage.getItem("saved_cash");
-    mc = localStorage.getItem("saved_mc");
-    bob = localStorage.getItem("saved_bob");
-    elton = localStorage.getItem("saved_elton");
-    queen = localStorage.getItem("saved_queen");
-    beatles = localStorage.getItem("saved_beatles");
     console.log("fetching artists");
+    if (localStorage.getItem("saved_mj") > 0) {
+        mj = localStorage.getItem("saved_mj"); 
+        console.log("setting mj"); 
+    }
+    else {
+        mj = 0;
+        console.log("converting mj");
+    }
+    if (localStorage.getItem("saved_acdc") > 0) {
+        acdc = localStorage.getItem("saved_acdc");
+    }
+    else {
+        acdc = 0;
+    }
+    if (localStorage.getItem("saved_bruce") > 0) {
+        bruce = localStorage.getItem("saved_bruce");
+    }
+    else {
+        bruce = 0;
+    }
+    if (localStorage.getItem("saved_abba") > 0) {
+        abba = localStorage.getItem("saved_abba");
+    }
+    else {
+        abba = 0;
+    }
+    if (localStorage.getItem("saved_elvis") > 0) {
+        elvis = localStorage.getItem("saved_elvis");
+    }
+    else {
+        elvis = 0;
+    }
+    if (localStorage.getItem("saved_cash") > 0) {
+        cash = localStorage.getItem("saved_cash");
+    }
+    else {
+        cash = 0;
+    }
+    if (localStorage.getItem("saved_mc") > 0) {
+        mc = localStorage.getItem("saved_mc");
+    }
+    else {
+        mc = 0;
+    }
+    if (localStorage.getItem("saved_bob") > 0) {
+        bob = localStorage.getItem("saved_bob");
+    }
+    else {
+        bob = 0;
+    }
+    if (localStorage.getItem("saved_elton") > 0) {
+        elton = localStorage.getItem("saved_elton");
+    }
+    else {
+        elton = 0;
+    }
+    if (localStorage.getItem("saved_queen") > 0) {
+        queen = localStorage.getItem("saved_queen");
+    }
+    else {
+        queen = 0;
+    }
+    if (localStorage.getItem("saved_beatles") > 0) {
+        beatles = localStorage.getItem("saved_beatles");
+    }
+    else {
+        beatles = 0;
+    }
 }
 // run the function upon load
 getArtists();
