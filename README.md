@@ -14,3 +14,4 @@ REMEMBER TO "COMMIT" YOUR CHANGES REGULARLY TO SHOW HOW YOU HAVE BUILT THIS PROJ
 # Project Summary
 
 > This project is a webpage that has a Music Quiz built into it. The Music Quiz is my project for the Programming course. This project however is the page itself, a welcome page along with a contact page, an "about" page which some "commercial-like" features, and a session statistic page that outputs the stored values from your Music Quiz games.  
+I have been sticking to the budget timewise, although, some of the time from this project went in to designing the game. When I felt that the page and the game was well designed I looked into creating some different things, like a scrolling text-bar, a dropdown menu and a fixed button with some animation etc. 
