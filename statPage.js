@@ -116,6 +116,7 @@ function getLastScore() {
 }
 // run the function when the program loads
 getLastScore();
+
 // output the last score on the session stats page
 document.getElementById("lastScore").innerHTML = "The score of your last game was: " + lastScore;
 
@@ -185,11 +186,11 @@ else if (beatles == Math.max(...artistArr)) {
     img.src = "https://svd.vgc.no/v2/images/81e63073-137a-45ba-93b3-e8e70a1b9736?h=560&q=80&upscale=true&w=995&s=c8dd41c0e57da0a82faeeab43db3b43ed8428860";
     text.innerText="The Beatles!";
 }
-else if (Math.min(...artistArr) == 0) {
-    img.src = "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg";
-    text.innerText="Answer more questions to see\nthe most frequent appearing artist!"
-}
-else if (artistArr == null) {
+// else if (Math.min(...artistArr) == 0) {
+//     img.src = "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg";
+//     text.innerText="Answer more questions to see\nthe most frequent appearing artist!"
+// }
+else if (Math.max(...artistArr) == 0 || null) {
     img.src = "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg";
     text.innerText="Answer more questions to see\nthe most frequent appearing artist!"
 }
